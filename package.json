@@ -2,9 +2,12 @@
   "name": "@ikari-engine/tests",
   "version": "0.0.1-dev0",
   "description": "Ikari engine tests",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "tests": "echo \"Success\" && exit 0"
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "test": "echo \"Success\" && exit 0"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/ikari-engine/tests/issues"
   },
-  "homepage": "https://github.com/ikari-engine/tests#readme"
+  "homepage": "https://github.com/ikari-engine/tests#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
 }
