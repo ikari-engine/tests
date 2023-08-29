@@ -1,0 +1,24 @@
+{
+  "name": "@ikari-engine/tests",
+  "version": "0.0.1-dev0",
+  "description": "Ikari engine tests",
+  "main": "index.js",
+  "scripts": {
+    "tests": "echo \"Success\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikari-engine/tests.git"
+  },
+  "keywords": [
+    "ikari",
+    "engine",
+    "tests"
+  ],
+  "author": "Pedro Xavier Leite Cavadas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikari-engine/tests/issues"
+  },
+  "homepage": "https://github.com/ikari-engine/tests#readme"
+}
