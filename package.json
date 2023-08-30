@@ -7,7 +7,8 @@
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc -w",
-    "test": "echo \"Success\" && exit 0"
+    "test": "mocha --require ts-node/register --extensions ts,tsx --watch-files src 'test/**/*.spec.ts' --parallel",
+    "test:nyc": "nyc npm run test"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,15 @@
   },
   "homepage": "https://github.com/ikari-engine/tests#readme",
   "devDependencies": {
+    "@istanbuljs/nyc-config-typescript": "^1.0.2",
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "@types/sinon": "^10.0.16",
+    "chai": "^4.3.8",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0",
+    "sinon": "^15.2.0",
+    "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   }
 }
