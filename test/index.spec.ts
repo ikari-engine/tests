@@ -1,5 +1,5 @@
 import { assert } from "chai";
-import add from "../src/index";
+import { add } from "../src";
 
 describe("Test suite", () => {
   it("should pass", () => {
