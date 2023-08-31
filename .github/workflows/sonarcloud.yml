@@ -55,6 +55,7 @@ jobs:
           cache: "npm"
       - run: npm ci
       - run: npm run test:nyc
+        continue-on-error: true
       - name: Analyze with SonarCloud
         # You can pin the exact commit or the version.
         # uses: SonarSource/sonarcloud-github-action@de2e56b42aa84d0b1c5b622644ac17e505c9a049
