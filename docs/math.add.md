@@ -1,22 +1,20 @@
-[@ikari-engine/tests](../README.md) / [Exports](../modules.md) / math/add
-
 # Module: math/add
 
 ## Table of contents
 
 ### References
 
-- [default](math_add.md#default)
+- [default](../wiki/math.add#default)
 
 ### Functions
 
-- [add](math_add.md#add)
+- [add](../wiki/math.add#add)
 
 ## References
 
 ### default
 
-Renames and re-exports [add](math_add.md#add)
+Renames and re-exports [add](../wiki/math.add#add)
 
 ## Functions
 
@@ -41,4 +39,4 @@ The arithmentic sum of `x` and `y`.
 
 #### Defined in
 
-math/add.ts:8
+[math/add.ts:8](https://github.com/ikari-engine/tests/blob/4a0ca28/src/math/add.ts#L8)
