@@ -1,10 +1,11 @@
 import { assert } from "chai";
-import add from "../src";
+import add from "../src/index";
 
 describe("Test suite", () => {
   it("should pass", () => {
     const x = 1;
     const y = 2;
-    assert.equal(x + y, add(x, y));
+    const expected = x + y;
+    assert.equal(add(x, y), expected);
   });
 });
